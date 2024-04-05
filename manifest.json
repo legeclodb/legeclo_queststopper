@@ -1,0 +1,20 @@
+{
+  "name": "れじぇくろクエスト周回解除",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://front.legend-clover.net/*",
+    "https://pcr.legend-clover.net/*",
+    "https://pc-play.games.dmm.co.jp/play/legeclox/*",
+    "https://pc-play.games.dmm.com/play/legeclo/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
